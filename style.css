@@ -47,16 +47,17 @@ ul {
 ul > li {
   list-style: none;
 }
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
-  margin-top: 63px;
+ 
 }
 .hero-title {
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;
   text-align: center;
+  margin-bottom: 24px;
 }
 .hero-description {
   color: #727272;
@@ -95,4 +96,74 @@ nav {
 .section-text{
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+/* styles for sectionThree */
+
+
+ .sectionThree{
+  display: flex;
+  margin-top: 130px;
+ }
+
+.box{
+  width: 586px;
+height: 171px;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+padding: 30px 42px 30px 30px;
+ }
+ .tenYear-btn{
+  font-size: 45px;
+
+ }
+.sectionThree-btn{
+margin-left: 50%;
+margin-top: -50px;
+
+
+
+}
+
+/* SectionFour styles */
+.sectionFour-boxes{
+  display: flex;
+  gap: 124px;
+}
+.sectionFour-box{
+  /* text-align: center;
+  align-items: center; */
+  width: 241.83px;
+height: 241.83px;
+border: 1px solid #FF900E;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+margin-bottom: 180px;
+
+}
+.sectionFour-text{
+  font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+
+.sectionFive{
+  text-align: center;
+}
+.sponsor-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.footer{
+  text-align: center;
+  padding: 39px 0;
+  background: #FFF4E7;
+border-radius: 8px;
+margin-bottom: 216px;
 }

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: 0;
+  cursor: pointer;
+  padding: 20px 25px;
+  background: #ff900e;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+.section-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+.section-text{
+    font-weight: 400;
+    color: #727272;
+}
+
+.hero {
+  
+  background-color: #ebbf8d1a;
+}
+.logo{
+    font-weight: 700;
+font-size: 25px;
+}
+ul {
+  display: flex;
+  gap: 15px;
+}
+ul > li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 63px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+}
+.hero-description {
+  color: #727272;
+  font-weight: 400;
+  text-align: center;
+  margin: 33px 0;
+}
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.banner-image img {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  
+
+}
+
+/* styles for sectionTow */
+.sectionTwo{
+    display: flex;
+    gap: 73px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 82px;
+}
+.sectionTwo-photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.section-text{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}

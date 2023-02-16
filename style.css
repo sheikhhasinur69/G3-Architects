@@ -167,3 +167,68 @@ color: #727272;
 border-radius: 8px;
 margin-bottom: 216px;
 }
+
+
+/* styles for media quaries */
+@media (max-width: 568px) {
+
+  .container {
+  max-width: 90%;
+  }
+  .navbar { 
+    flex-direction: column;
+  }
+  ul {
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .sectionTwo{
+    display: flex;
+    flex-direction: column;
+}
+  .sectionTwo-photos{
+
+    grid-template-columns: repeat(1, 1fr);
+ 
+}
+.sectionThree{
+  display: flex;
+ flex-direction: column;
+ }
+ .box{
+  width: 386px;
+ }
+ .tenYear-btn{
+  font-size: 25px;
+ }
+ .sectionThree-btn{
+  margin-left: 30%;
+  margin-top: 10px;
+  }
+ .sectionThree-img{
+  width: 100%;
+ }
+ .sectionFour-boxes{
+  flex-direction: column;
+  gap: 5px;
+}
+.sectionFour-box{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.sponsor-icons{
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  margin-bottom: 130px;
+}
+.footer{
+  text-align: center;
+  padding: 39px 10px;
+  background: #FFF4E7;
+border-radius: 8px;
+margin-bottom: 216px;
+}
+}
